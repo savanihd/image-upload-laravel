@@ -2,7 +2,7 @@
 
 Install Package By using bellow command:
 ```
-composer require dompdf/dompdf
+composer require savanihd/image-upload-laravel
 ```
 You need to update on config/app.php file
 ```
