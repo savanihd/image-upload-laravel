@@ -15,7 +15,6 @@ class ImageUploadLaravelServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        \Log::info('from package');
     }
 
     /**
