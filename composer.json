@@ -1,6 +1,7 @@
 {
     "name": "savanihd/image-upload-laravel",
     "description": "laravel image upload",
+    "license": "MIT",
     "authors": [
         {
             "name": "Hardik Savani",
