@@ -8,8 +8,9 @@
         }
     ],
     "require": {},
-    "psr-4": {
-        "App\\": "app/",
-        "SavaniHD\\ImageUploadLaravel\\": "packages/image-upload-laravel/src/"
+    "autoload": {
+        "psr-4" : {
+            "SavaniHD\\ImageUploadLaravel\\": "/src/"
+        }
     }
 }
