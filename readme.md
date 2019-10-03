@@ -15,3 +15,14 @@ You need to update on config/app.php file
     'ImageUploadLaravel' => SavaniHD\ImageUploadLaravel\Facades\ImageUploadHDLaravelFacade::class,
 ]
 ```
+You can use as bellow:
+upload method will return name of uploaded file. if you upload same file name file than it will return name like this way: test.png. test-1.png, test-2.png etc
+Syntax:
+```
+ImageUploadLaravel::upload(file_object, folder_path)
+```
+Example:
+```
+ImageUploadLaravel::upload($request->image, public_path('images'))
+```
+Supported By: https://itsolutionstuff.com
