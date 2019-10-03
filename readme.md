@@ -23,6 +23,8 @@ ImageUploadLaravel::upload(file_object, folder_path)
 ```
 Example:
 ```
-ImageUploadLaravel::upload($request->image, public_path('images'))
+$fileName = ImageUploadLaravel::upload($request->image, public_path('images'))
+
+dd($fileName);
 ```
 Supported By: https://itsolutionstuff.com
